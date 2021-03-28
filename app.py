@@ -41,3 +41,11 @@ try:
 except:
     st.markdown("### Enter the word: ")
 time.sleep(1)
+
+st.sidebar.markdown('''
+created by Sanket Chavan 
+''')
+
+st.sidebar.markdown('''
+Connect on <a href = "https://www.linkedin.com/in/sanket-chavan5595/"> Linkedin </a>
+''', True)
